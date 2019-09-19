@@ -1,0 +1,6 @@
+1. The difference between position: absolute and position: fixed is that the fixed positioning is relative to the viewport
+while the absolute positioning is relative to the hierarchically most immediate parent element which has a relative
+or absolute positioning.
+
+2. With CSS3 we access the third element within another element by using :nth-child(3), and it also accepts expressions
+in the form of (an + b) where a and b must be integers.

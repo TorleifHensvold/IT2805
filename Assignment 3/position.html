@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IT2805</title>
+
+	<style type="text/css">
+
+		html, body
+		{
+			margin: 0;
+			padding: 0;
+			height: 100%;
+		}
+
+		/* Part 1 */
+
+		/* Torleif Hensvold, 19.09.2019*/
+
+		.header
+		{
+			font-family: sans-serif;
+			padding-top: 30px;
+			margin-bottom: 40px;
+			text-align: center;
+		}
+
+		.box
+		{
+			border-width: 2px;
+			border-color: #0060A3;
+			border-style: solid;
+			height: 400px;
+			width: 70%;
+			position: relative;
+			left: 15%;
+		}
+
+		.one
+		{
+			width: 100px;
+			height: 100px;
+			border-width: 2px;
+			border-color: #FAA21B;
+			border-style: solid;
+			position: absolute;
+			left: 1%;
+			top: 1%;
+			/*
+			Was uncertain whether that "the orange boxes must have the same placement relative to the blue box at all times" meant
+			that it should have a percentage to keep them at the same quotient of the width and height, or if it was meant
+			that it should be pixels. If pixels, the following snippet should be the code used for positioning.
+
+			left: 15px;
+			top: 15px;
+			*/
+		}
+
+		.two
+		{
+			width: 100px;
+			height: 100px;
+			border-width: 2px;
+			border-color: #FAA21B;
+			border-style: solid;
+			background-color: bisque;
+			position: absolute;
+			left: 1%;
+			bottom: 1%;
+			/*
+			Was uncertain whether that "the orange boxes must have the same placement relative to the blue box at all times" meant
+			that it should have a percentage to keep them at the same quotient of the width and height, or if it was meant
+			that it should be pixels. If pixels, the following snippet should be the code used for positioning.
+
+			left: 15px;
+			bottom: 15px;
+			*/
+		}
+
+		.three
+		{
+			width: 100px;
+			height: 100px;
+			border-width: 2px;
+			border-color: #FAA21B;
+			border-style: solid;
+			background-color: bisque;
+			position: absolute;
+			top: 50%;
+			right: -50px;
+			transform: translate(0, -50%);
+		}
+
+		.four
+		{
+			width: 50px;
+			height: 50px;
+			border-width: 2px;
+			border-color: #FAA21B;
+			border-style: solid;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		.five
+		{
+			bottom: 10px;
+			right: 10px;
+			font-size: 35px;
+			font-family: sans-serif;
+			position: absolute;
+		}
+
+		/* Part 2 */
+
+		body
+		{
+			background-color: bisque;
+		}
+
+		a:link
+		{
+			color: black;
+		}
+
+		a:hover
+		{
+			color: bisque;
+		}
+
+		a:visited
+		{
+			color: cadetblue;
+		}
+
+		a:active
+		{
+			color: crimson;
+		}
+
+	</style>
+</head>
+<body>
+
+<div class="header">
+	<h1>Assignment 3: position</h1>
+</div>
+
+<div class="box">
+	<div class="one"></div>
+	<div class="two"></div>
+	<div class="three">
+		<div class="four"></div>
+	</div>
+	<div class="five">
+		<a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS is awesome</a>
+	</div>
+</div>
+
+
+</body>
+</html>

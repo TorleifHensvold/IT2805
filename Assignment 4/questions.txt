@@ -1,0 +1,8 @@
+1. Mobile phones usually ignore autoplay on video elements because they often use(d) cellular data that was limited
+and costly.
+
+2. The CSS snippet at the end of the section will make a device with 320 x 568 resolution show the element with the id
+"logo", as devices between 768 and 1024 in width will have the property of not displaying the element with id "logo".
+
+3. Some of the advantages of having a responsive website instead of dedicated versions is that there is less
+maintenance, as you only change stuff one place | It is easier to modify, as everything is in one place

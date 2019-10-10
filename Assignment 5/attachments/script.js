@@ -69,7 +69,7 @@ function eplekake (array)
 		let output = ''
 		output += eplekakeCheck(array[i], 3, 'eple')
 		output += eplekakeCheck(array[i], 5, 'kake')
-		if (output.length == 0)
+		if (output.length === 0)
 		{
 			output += array[i]
 		}

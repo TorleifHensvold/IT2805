@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad4e7b45-c776-4fe9-93dc-c6d41e15390a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 5/attachments/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 5/attachments/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 5/attachments/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 5/attachments/script.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,33 +46,36 @@
           <entry key="css" value="557" />
           <entry key="gitignore" value="16" />
           <entry key="html" value="1649" />
-          <entry key="txt" value="1549" />
+          <entry key="js" value="1613" />
+          <entry key="txt" value="1613" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="557" />
           <entry key="HTML" value="1649" />
-          <entry key="PLAIN_TEXT" value="1565" />
+          <entry key="JavaScript" value="1613" />
+          <entry key="PLAIN_TEXT" value="1629" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assignment 5/attachments/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="612">
               <caret line="36" column="100" selection-start-line="36" selection-start-column="100" selection-end-line="36" selection-end-column="100" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assignment 5/attachments/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="190">
+              <caret line="71" column="28" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -110,6 +112,7 @@
         <option value="$PROJECT_DIR$/Assignment 4/css/style.css" />
         <option value="$PROJECT_DIR$/Assignment 4/index.html" />
         <option value="$PROJECT_DIR$/Assignment 5/attachments/index.html" />
+        <option value="$PROJECT_DIR$/Assignment 5/attachments/script.js" />
       </list>
     </option>
   </component>
@@ -194,7 +197,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -230,7 +233,7 @@
       <workItem from="1569610489287" duration="2814000" />
       <workItem from="1569613511898" duration="600000" />
       <workItem from="1570481608339" duration="619000" />
-      <workItem from="1570694265656" duration="1300000" />
+      <workItem from="1570694265656" duration="8541000" />
     </task>
     <task id="LOCAL-00001" summary="Added gitignore file for *.zip">
       <created>1569610575263</created>
@@ -288,17 +291,52 @@
       <option name="project" value="LOCAL" />
       <updated>1570698392244</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added script source to head with async">
+      <created>1570698771661</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1570698771661</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Finished part 2">
+      <created>1570706322356</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1570706322356</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Finished part 3">
+      <created>1570706344100</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1570706344100</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Finished part 4">
+      <created>1570706364997</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1570706364997</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Reformat">
+      <created>1570706382088</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1570706382088</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17915000" />
+    <option name="totallyTimeSpent" value="25156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -313,7 +351,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -336,7 +374,12 @@
     <MESSAGE value="Done the assignment" />
     <MESSAGE value="Added attached files from BlackBoard" />
     <MESSAGE value="Reformat of index.html as per my standard formatting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reformat of index.html as per my standard formatting" />
+    <MESSAGE value="Added script source to head with async" />
+    <MESSAGE value="Finished part 2" />
+    <MESSAGE value="Finished part 3" />
+    <MESSAGE value="Finished part 4" />
+    <MESSAGE value="Reformat" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reformat" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assignment 4/test.html" />
@@ -409,19 +452,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment 5/attachments/script.js">
+    <entry file="file://$PROJECT_DIR$/Assignment 5/attachments/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="612">
+          <caret line="36" column="100" selection-start-line="36" selection-start-column="100" selection-end-line="36" selection-end-column="100" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment 5/attachments/index.html">
+    <entry file="file://$PROJECT_DIR$/Assignment 5/attachments/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="36" column="100" selection-start-line="36" selection-start-column="100" selection-end-line="36" selection-end-column="100" />
+        <state relative-caret-position="190">
+          <caret line="71" column="28" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

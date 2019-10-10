@@ -91,17 +91,21 @@ document.getElementById("title").innerText = "Hello, JavaScript"
 /* Part 5 */
 function changeDisplay ()
 {
-
+	document.getElementById("magic").style.display = "none";
 }
 
 function changeVisibility ()
 {
-
+	let e = document.getElementById("magic").style
+	e.visibility = "hidden";
+	e.display = "block";
 }
 
 function reset ()
 {
-
+	let e = document.getElementById("magic").style
+	e.visibility = "visible";
+	e.display = "block";
 }
 
 /* Part 6 */

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ad4e7b45-c776-4fe9-93dc-c6d41e15390a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 5/attachments/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 5/attachments/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment 5/attachments/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 5/attachments/script.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,36 +47,36 @@
           <entry key="css" value="557" />
           <entry key="gitignore" value="16" />
           <entry key="html" value="1672" />
-          <entry key="js" value="1718" />
-          <entry key="txt" value="1677" />
+          <entry key="js" value="1795" />
+          <entry key="txt" value="1727" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="557" />
           <entry key="HTML" value="1672" />
-          <entry key="JavaScript" value="1718" />
-          <entry key="PLAIN_TEXT" value="1693" />
+          <entry key="JavaScript" value="1795" />
+          <entry key="PLAIN_TEXT" value="1743" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assignment 5/attachments/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="47" column="44" lean-forward="true" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+              <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assignment 5/attachments/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="93" column="53" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
+            <state relative-caret-position="451">
+              <caret line="105" column="50" selection-start-line="105" selection-start-column="50" selection-end-line="105" selection-end-column="50" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -113,8 +112,8 @@
         <option value="$PROJECT_DIR$/Assignment 4/questions.txt" />
         <option value="$PROJECT_DIR$/Assignment 4/css/style.css" />
         <option value="$PROJECT_DIR$/Assignment 4/index.html" />
-        <option value="$PROJECT_DIR$/Assignment 5/attachments/script.js" />
         <option value="$PROJECT_DIR$/Assignment 5/attachments/index.html" />
+        <option value="$PROJECT_DIR$/Assignment 5/attachments/script.js" />
       </list>
     </option>
   </component>
@@ -235,7 +234,7 @@
       <workItem from="1569610489287" duration="2814000" />
       <workItem from="1569613511898" duration="600000" />
       <workItem from="1570481608339" duration="619000" />
-      <workItem from="1570694265656" duration="9349000" />
+      <workItem from="1570694265656" duration="10390000" />
     </task>
     <task id="LOCAL-00001" summary="Added gitignore file for *.zip">
       <created>1569610575263</created>
@@ -335,11 +334,18 @@
       <option name="project" value="LOCAL" />
       <updated>1570706440582</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added onclick events to index.html for the buttons">
+      <created>1570707218680</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1570707218680</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25964000" />
+    <option name="totallyTimeSpent" value="27005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -389,7 +395,8 @@
     <MESSAGE value="Finished part 4" />
     <MESSAGE value="Reformat" />
     <MESSAGE value="changed == to === in check for equal to 0, as per code analysis." />
-    <option name="LAST_COMMIT_MESSAGE" value="changed == to === in check for equal to 0, as per code analysis." />
+    <MESSAGE value="added onclick events to index.html for the buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="added onclick events to index.html for the buttons" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assignment 4/test.html" />
@@ -462,20 +469,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment 5/attachments/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="93" column="53" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assignment 5/attachments/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="47" column="44" lean-forward="true" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+          <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment 5/attachments/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="105" column="50" selection-start-line="105" selection-start-column="50" selection-end-line="105" selection-end-column="50" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

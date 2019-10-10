@@ -89,29 +89,32 @@ document.getElementById("title").innerText = "Hello, JavaScript"
 
 
 /* Part 5 */
-function changeDisplay () {
+function changeDisplay ()
+{
 
 }
 
-function changeVisibility () {
+function changeVisibility ()
+{
 
 }
 
-function reset () {
+function reset ()
+{
 
 }
 
 /* Part 6 */
 const technologies = [
-    'HTML5',
-    'CSS3',
-    'JavaScript',
-    'Python',
-    'Java',
-    'AJAX',
-    'JSON',
-    'React',
-    'Angular',
-    'Bootstrap',
-    'Node.js'
-];
+	'HTML5',
+	'CSS3',
+	'JavaScript',
+	'Python',
+	'Java',
+	'AJAX',
+	'JSON',
+	'React',
+	'Angular',
+	'Bootstrap',
+	'Node.js',
+]

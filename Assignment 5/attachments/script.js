@@ -9,6 +9,7 @@ for (let i = 1; i < 21; i++)
 {
 	console.log(i)
 }
+console.log("")
 
 /* Part 3 */
 console.log('PART 3')
@@ -122,3 +123,16 @@ const technologies = [
 	'Bootstrap',
 	'Node.js',
 ]
+// We find the element with ID tech. It is used for all, so is useful outside
+// the loop
+let e = document.getElementById("tech")
+
+// Then we loop through all the elements of the technologies array and add
+// them as children to the
+for (let i = 0; i < technologies.length; i++)
+{
+	let item = document.createElement('li');
+	let node = document.createTextNode(technologies[i]);
+	item.appendChild(node);
+	e.appendChild(item);
+}

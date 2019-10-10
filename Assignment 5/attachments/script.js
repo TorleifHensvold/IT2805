@@ -1,5 +1,14 @@
 /* Part 2 */
 console.log('PART 2')
+/*
+Using the "let" keyword to initialize local variable i to value of 1
+While i is less than 21, but not including 20, do the commands in {},
+and add one to i for each iteration.
+*/
+for (let i = 1; i < 21; i++)
+{
+	console.log(i)
+}
 
 /* Part 3 */
 console.log('PART 3')

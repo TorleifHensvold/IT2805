@@ -84,6 +84,10 @@ eplekake(numbers)
 
 /* Part 4 */
 
+// I don't think I need to comment this. It's self-explanatory.
+document.getElementById("title").innerText = "Hello, JavaScript"
+
+
 /* Part 5 */
 function changeDisplay () {
 

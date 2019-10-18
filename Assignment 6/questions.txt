@@ -1,0 +1,30 @@
+
+1.
+	0.1 + 0.2 === 0.3 is false because floating point math. Basically the precision of floating point math in ECMAScript
+	has slight errors, and when added together the errors might add up to just enough to let ECMAScript interpret it as
+	a number slightly higher or lower than what would be expected. The same errors does not add up to enough to change
+	the equivalency when the numbers are 0.2 + 0.2 === 0.4, as per the following link.
+
+	https://stackoverflow.com/questions/50778431/why-does-0-1-0-2-return-unpredictable-float-results-in-javascript-while-0-2
+
+2.
+	The method attribute on a form element decides how the form is transmitted to the server. GET for stuff one
+	might want to bookmark or general search terms, POST for secure data, or when you don't have a good reason to
+	use GET.
+
+	https://www.w3schools.com/tags/att_form_method.asp
+
+3.
+	The form fields appear in the URL when the method on form element is changed to GET because it then requests a page
+	from the webserver with those fields instead of sending the data to the webserver without specifically requesting
+	a new page. It is also less privacy-minded, as the URL can be looked at more easily than an encrypted blob being
+	POST'ed
+
+4.
+	It is considered bad practice to only validate form input with HTML5 or JS because the user has total control over
+	them and can change them on their end. Thus they can send you data you didn't expect either way, which can take
+	control of your webserver if no validation and sanitation is performed on the server.
+
+5.
+	When you need the user to write something substantial, like several paragraphs, you use textarea, as that allows
+	for multi-line input, while input only allows one line.

@@ -10,6 +10,8 @@
 <div id="form">
 	<form action="http://folk.ntnu.no/michaedm/norwegian-tax-administration/receive.php" method="post">
 
+
+		<fieldset>
 		<label>
 			Real name: <br>
 			<input
@@ -21,56 +23,70 @@
 					required
 			> <br>
 		</label>
+		</fieldset>
 
-		<label>
-			Gender: <br>
-			<input type="radio" name="gender" value="male" required> Male <br>
-			<input type="radio" name="gender" value="female" required> Female <br>
-		</label>
+		<fieldset>
+			<label>
+				Gender: <br>
+				<input type="radio" name="gender" value="male" required> Male <br>
+				<input type="radio" name="gender" value="female" required> Female <br>
+			</label>
+		</fieldset>
 
-		<label>
-			E-mail: <br>
-			<input type="email" name="email" placeholder="ola@nordmann.no" required> <br>
-		</label>
+		<fieldset>
+			<label>
+				E-mail: <br>
+				<input type="email" name="email" placeholder="ola@nordmann.no" required> <br>
+			</label>
+		</fieldset>
 
-		<label>
-			Birthdate: <br>
-			<input type="date" name="birthdate" max="1987-12-31" required> <br>
-		</label>
+		<fieldset>
+			<label>
+				Birthdate: <br>
+				<input type="date" name="birthdate" max="1987-12-31" required> <br>
+			</label>
+		</fieldset>
 
-		<label>
-			Hero Name: <br>
-			<!-- I interpreted the description to mean it accepts any alphanumerical character, also Norwegian -->
-			<input
-					type="text"
-					name="heroname"
-					pattern="[a-zA-ZæøåÆØÅ0-9]+"
-					title="You can use any alphanumerical character a-z, and øæå, and 0-9"
-					placeholder="Ben10"
-					required
-			> <br>
-		</label>
+		<fieldset>
+			<label>
+				Hero Name: <br>
+				<!-- I interpreted the description to mean it accepts any alphanumerical character, also Norwegian -->
+				<input
+						type="text"
+						name="heroname"
+						pattern="[a-zA-ZæøåÆØÅ0-9]+"
+						title="You can use any alphanumerical character a-z, and øæå, and 0-9"
+						placeholder="Ben10"
+						required
+				> <br>
+			</label>
+		</fieldset>
 
-		<label>
-			Do you wear Spandex: <br>
-			<input type="radio" name="spandex" value="yes" required> Yes <br>
-			<input type="radio" name="spandex" value="no" required> No <br>
-		</label>
+		<fieldset>
+			<label>
+				Do you wear Spandex: <br>
+				<input type="radio" name="spandex" value="yes" required> Yes <br>
+				<input type="radio" name="spandex" value="no" required> No <br>
+			</label>
+		</fieldset>
 
-		<label>
-			Strength: <br>
-			<input type="number" name="strength" min="1" max="10" placeholder="5" required> <br>
-		</label>
+		<fieldset>
+			<legend>Attributes as value between 1 and 10, inclusive</legend>
+			<label>
+				Strength: <br>
+				<input type="number" name="strength" min="1" max="10" placeholder="5" required> <br>
+			</label>
 
-		<label>
-			Speed: <br>
-			<input type="number" name="speed" min="1" max="10" placeholder="5" required> <br>
-		</label>
+			<label>
+				Speed: <br>
+				<input type="number" name="speed" min="1" max="10" placeholder="4" required> <br>
+			</label>
 
-		<label>
-			Intelligence: <br>
-			<input type="number" name="intelligence" min="1" max="10" placeholder="5" required> <br>
-		</label>
+			<label>
+				Intelligence: <br>
+				<input type="number" name="intelligence" min="1" max="10" placeholder="6" required> <br>
+			</label>
+		</fieldset>
 
 		<br>
 		<label>

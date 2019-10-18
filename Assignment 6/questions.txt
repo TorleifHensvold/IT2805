@@ -28,3 +28,8 @@
 5.
 	When you need the user to write something substantial, like several paragraphs, you use textarea, as that allows
 	for multi-line input, while input only allows one line.
+
+
+Extra: Bruce Wayne does not pay the taxes he should. He owes 18 386 547.75 in taxes, but the table.txt shows his tax
+as 11 132 384. The same applies to Selina Kyle, who owes 746 830.75, but in the .txt is recorded with 597 464 in taxes.
+Nick Nedd also pays too little in taxes, as he owes 31600.45 and is recorded with a tax of 29 794.

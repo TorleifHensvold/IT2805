@@ -5,6 +5,7 @@
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
+	<script src="tax.js" defer></script>
 </head>
 <body>
 <div id="form">
@@ -93,19 +94,19 @@
 			<fieldset>
 				<label>
 					Income: <br>
-					<input id="income" type="number" name="income" min="0" placeholder="15603" required> <br>
+					<input id="income" onchange="calculateTax()" type="number" name="income" min="0" placeholder="15603" required> <br>
 				</label>
 			</fieldset>
 			<fieldset>
 				<label>
 					Wealth: <br>
-					<input id="wealth" type="number" name="wealth" min="0" placeholder="10000" onchange="" required> <br>
+					<input id="wealth" onchange="calculateTax()" type="number" name="wealth" min="0" placeholder="10000"  required> <br>
 				</label>
 			</fieldset>
 			<fieldset>
 				<label>
 				Tax: <br>
-				<input id="tax" name="tax" value="0">
+				<input id="tax" name="tax" value="0" disabled>
 				</label>
 			</fieldset>
 		</fieldset>

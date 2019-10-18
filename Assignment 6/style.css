@@ -1,0 +1,50 @@
+
+
+body
+{
+	background-color: bisque;
+	font-family: "Verdana", Arial, sans-serif;
+}
+
+div.form
+{
+
+}
+
+form
+{
+	padding: 10px;
+	border-radius: 10px;
+	background-color: darkgrey;
+	display: table;
+	margin: auto;
+
+	/*
+		To get the form to align to center I found the solution posted here: https://stackoverflow.com/a/51723694/9516331
+		It seems to only work with table, as I've tried other solutions. This seems the most clean solution to centering
+		a form on the page to be responsive to viewport changes.
+	*/
+
+}
+
+fieldset
+{
+	border-radius: 5px;
+}
+
+input[type=submit]
+{
+	background-color: cadetblue;
+	width: 90%;
+	margin: auto;
+	padding: 10px 70px 10px 70px;
+	border-radius: 5px;
+	/*text-align: center;*/
+	display: block;
+	cursor: pointer;
+}
+
+fieldset
+{
+	text-align: left;
+}

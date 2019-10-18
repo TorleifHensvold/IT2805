@@ -4,7 +4,6 @@
     <list default="true" id="ad4e7b45-c776-4fe9-93dc-c6d41e15390a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment 6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 6/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 6/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 6/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,19 +44,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="682" />
+          <entry key="css" value="1266" />
           <entry key="gitignore" value="16" />
-          <entry key="html" value="2963" />
+          <entry key="html" value="3382" />
           <entry key="js" value="2233" />
-          <entry key="txt" value="1869" />
+          <entry key="txt" value="2196" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="682" />
-          <entry key="HTML" value="2963" />
+          <entry key="CSS" value="1266" />
+          <entry key="HTML" value="3382" />
           <entry key="JavaScript" value="2233" />
-          <entry key="PLAIN_TEXT" value="1885" />
+          <entry key="PLAIN_TEXT" value="2212" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -72,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assignment 6/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="71" column="84" selection-start-line="71" selection-start-column="84" selection-end-line="71" selection-end-column="84" />
+            <state relative-caret-position="434">
+              <caret line="108" column="24" selection-start-line="108" selection-start-column="24" selection-end-line="108" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -81,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assignment 6/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="60">
+              <caret line="23" column="120" selection-start-line="23" selection-start-column="120" selection-end-line="23" selection-end-column="120" />
             </state>
           </provider>
         </entry>
@@ -250,7 +249,7 @@
       <workItem from="1569613511898" duration="600000" />
       <workItem from="1570481608339" duration="619000" />
       <workItem from="1570694265656" duration="16176000" />
-      <workItem from="1571385820870" duration="6635000" />
+      <workItem from="1571385820870" duration="13559000" />
     </task>
     <task id="LOCAL-00001" summary="Added gitignore file for *.zip">
       <created>1569610575263</created>
@@ -399,11 +398,32 @@
       <option name="project" value="LOCAL" />
       <updated>1571390042175</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Added placeholder values to show the user what is expected&#10;&#10;THe placeholder values were added to the inputs that take user-entered&#10;characters.">
+      <created>1571393650494</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1571393650494</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Added Fieldsets to distinguish separate elements more easily">
+      <created>1571399754298</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1571399754298</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Added initial css to make the form centered and looking snazzy">
+      <created>1571399783881</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1571399783881</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39426000" />
+    <option name="totallyTimeSpent" value="46350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -460,7 +480,10 @@
     <MESSAGE value="Done with part 1" />
     <MESSAGE value="Part 2 initializing css-file" />
     <MESSAGE value="Added stylesheet reference to head" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added stylesheet reference to head" />
+    <MESSAGE value="Added placeholder values to show the user what is expected&#10;&#10;THe placeholder values were added to the inputs that take user-entered&#10;characters." />
+    <MESSAGE value="Added Fieldsets to distinguish separate elements more easily" />
+    <MESSAGE value="Added initial css to make the form centered and looking snazzy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added initial css to make the form centered and looking snazzy" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assignment 4/test.html" />
@@ -549,15 +572,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment 6/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="60">
+          <caret line="23" column="120" selection-start-line="23" selection-start-column="120" selection-end-line="23" selection-end-column="120" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment 6/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="71" column="84" selection-start-line="71" selection-start-column="84" selection-end-line="71" selection-end-column="84" />
+        <state relative-caret-position="434">
+          <caret line="108" column="24" selection-start-line="108" selection-start-column="24" selection-end-line="108" selection-end-column="24" />
         </state>
       </provider>
     </entry>

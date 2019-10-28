@@ -1,0 +1,84 @@
+body, input
+{
+	font-family: "Verdana", Arial, sans-serif;
+	box-sizing: border-box;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+h1
+{
+	font-size: 42px;
+}
+
+#listDiv
+{
+	width: 80%;
+	margin: auto;
+}
+
+h1, #input, input, #output
+{
+	text-align: center;
+}
+
+#output
+{
+	margin-top: 60px;
+}
+
+ul
+{
+	margin-top: 30px;
+	padding: 0;
+}
+
+ul li
+{
+	list-style-type: none;
+	cursor: pointer;
+	position: relative;
+	padding: 6px 8px 6px 60px;
+	background: #eee;
+	transition: 0.3s;
+	margin-top: 6px;
+}
+
+ul li.checked
+{
+	background: #777;
+	color: #000;
+	text-decoration: line-through;
+}
+/*
+	Creates the "checkbox" for the list items
+ */
+ul li::before
+{
+	content: "";
+	position: absolute;
+	border: 2px solid #020202;
+	height: 15px;
+	width: 15px;
+	left: 20px;
+	top: 7px;
+}
+
+/*
+	Creates the checkmark in green for checked off items. If it was important that the checkbox stays when it is checked
+	I would have added images instead of doing it this way, but this was quicker at the moment.
+ */
+ul li.checked::before
+{
+	content: "";
+	position: absolute;
+	border-color: #0f0;
+	border-style: solid;
+	border-width: 0 2px 2px 0;
+	top: 5px;
+	left: 25px;
+	transform: rotate(45deg);
+	height: 15px;
+	width: 7px;
+}
+

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad4e7b45-c776-4fe9-93dc-c6d41e15390a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment 8/attachments(8)/attachments/bar-chart-with-labels.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment 8/attachments(8)/attachments/barchart.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 8/attachments(8)/attachments/barchart.js" afterDir="false" />
     </list>
@@ -150,7 +149,8 @@
       <workItem from="1570694265656" duration="16176000" />
       <workItem from="1571385820870" duration="22838000" />
       <workItem from="1572258748476" duration="5163000" />
-      <workItem from="1572433860152" duration="7095000" />
+      <workItem from="1572433860152" duration="7149000" />
+      <workItem from="1572444067139" duration="867000" />
     </task>
     <task id="LOCAL-00001" summary="Added gitignore file for *.zip">
       <created>1569610575263</created>
@@ -397,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572438130605</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Made some more progress, giving up for now, committing&#10;&#10;I can commit in the middle of stuff since it's only my own stuff!">
+      <created>1572443995929</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1572443995929</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,14 +415,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished part 4" />
     <MESSAGE value="Reformat" />
     <MESSAGE value="changed == to === in check for equal to 0, as per code analysis." />
     <MESSAGE value="added onclick events to index.html for the buttons" />
@@ -440,6 +448,7 @@
     <MESSAGE value="Added an extra text to the file for inconsistencies in taxes." />
     <MESSAGE value="Started assignment 8, done with part 1" />
     <MESSAGE value="Moved inline script from bar-chart-*.html to barchart.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved inline script from bar-chart-*.html to barchart.js" />
+    <MESSAGE value="Made some more progress, giving up for now, committing&#10;&#10;I can commit in the middle of stuff since it's only my own stuff!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made some more progress, giving up for now, committing&#10;&#10;I can commit in the middle of stuff since it's only my own stuff!" />
   </component>
 </project>

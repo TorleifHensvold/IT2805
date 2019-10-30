@@ -110,30 +110,33 @@ function labelsAndBars(height, width)
 function addLabel(name, colour, fromX, fromY, toX, toY)
 {
     drawText(name, fromX, fromY);
-    drawRectangle(fromX, ((toY - fromY)/2), (toX - fromX), toY, colour);
+    drawRectangle(fromX, (fromY + ((toY - fromY)/6)) , (toX - fromX), ((toY - fromY)/2), colour);
 }
 
 function addLabels(height, width)
 {
     let i = 0;
     let labelHeight = height/10;
-    for (let j = 0; j < 10; j++)
-    {
-        drawRectangle((width - SPACE_ON_RIGHT_SIDE), (labelHeight * i), SPACE_ON_RIGHT_SIDE, labelHeight, "grey")
-    }
-    let labelStartHeight = labelHeight * 3;
+    let labelStartHeight = labelHeight;
     for (let key in labels)
     {
         let labelStartY = (labelStartHeight + (i * labelHeight));
         let item = labels[key];
-        addLabel(item["name"], item["colour"], (width - SPACE_ON_RIGHT_SIDE), labelStartY, width, (labelStartY + labelHeight));
+        addLabel(item["name"], item["colour"], ((width - SPACE_ON_RIGHT_SIDE) + (SPACE_ON_RIGHT_SIDE / 20)), labelStartY, width, (labelStartY + labelHeight));
         i++;
     }
 }
 
-function addBarsForPerson(name, fromX, fromY, toX, toY)
+function addBarsForPerson(person, fromX, fromY, toX, toY)
 {
-
+    let bar1Start = fromX + 2;
+    let middlePointX = ((fromX + toX) / 2);
+    let bar1End = middlePointX - 2;
+    let bar2start = middlePointX + 2;
+    let bar2End = toX - 2;
+    drawText(person["name"], fromX, (fromY + 10));
+    drawRectangle(bar1Start, fromY, (bar1End - bar1Start), toY, )
+    // TODO change the whole damn thing to know where the bars can start, and how tall each line is
 }
 
 let canvasHeight = document.getElementById("chart").height;

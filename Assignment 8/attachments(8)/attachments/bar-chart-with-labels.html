@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Torleif Hensvold, yes, everything is in the same js-file</title>
+    <script src="taxForms.js" async></script>
+    <script src="barchart.js" defer></script>
+</head>
+<body>
+
+<canvas height="550" width="700" id="chart"></canvas>
+
+<!--
+    The following script is just to set a variable that barchart.js can use to determine which html file it is called
+    from.
+-->
+<script>
+    const page = "labels"
+</script>
+</body>
+</html>

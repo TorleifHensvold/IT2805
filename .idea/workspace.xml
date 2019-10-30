@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad4e7b45-c776-4fe9-93dc-c6d41e15390a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment 8/attachments(8)/attachments/barchart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 8/attachments(8)/attachments/bar-chart-with-labels.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 8/attachments(8)/attachments/bar-chart-with-lines.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 8/attachments(8)/attachments/bar-chart-with-lines.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 8/attachments(8)/attachments/barchart.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 8/attachments(8)/attachments/barchart.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -34,12 +34,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
   </component>
   <component name="ProjectId" id="1SvAm9QLuNJZc5F42kI4LI6PVj8" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -156,7 +150,7 @@
       <workItem from="1570694265656" duration="16176000" />
       <workItem from="1571385820870" duration="22838000" />
       <workItem from="1572258748476" duration="5163000" />
-      <workItem from="1572433860152" duration="1332000" />
+      <workItem from="1572433860152" duration="7095000" />
     </task>
     <task id="LOCAL-00001" summary="Added gitignore file for *.zip">
       <created>1569610575263</created>
@@ -396,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572434804079</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Moved inline script from bar-chart-*.html to barchart.js">
+      <created>1572438130605</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1572438130605</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +415,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished part 3" />
     <MESSAGE value="Finished part 4" />
     <MESSAGE value="Reformat" />
     <MESSAGE value="changed == to === in check for equal to 0, as per code analysis." />
@@ -439,6 +439,7 @@
     <MESSAGE value="Fixed the inspection, can now use &quot;redundant&quot; local variable" />
     <MESSAGE value="Added an extra text to the file for inconsistencies in taxes." />
     <MESSAGE value="Started assignment 8, done with part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started assignment 8, done with part 1" />
+    <MESSAGE value="Moved inline script from bar-chart-*.html to barchart.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved inline script from bar-chart-*.html to barchart.js" />
   </component>
 </project>

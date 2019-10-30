@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad4e7b45-c776-4fe9-93dc-c6d41e15390a" name="Default Changelist" comment="Added an extra text to the file for inconsistencies in taxes.">
-      <change afterPath="$PROJECT_DIR$/Assignment 8/attachments(8)/attachments/logIncomeOver500k.js" afterDir="false" />
+    <list default="true" id="ad4e7b45-c776-4fe9-93dc-c6d41e15390a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assignment 8/attachments(8)/attachments/barchart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 8/attachments(8)/attachments/bar-chart-with-lines.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 8/attachments(8)/attachments/bar-chart-with-lines.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,9 +34,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="e4e08b1f-fc38-4b73-bdcc-94d374442d60" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
@@ -115,7 +113,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.23442137" />
   </component>
   <component name="RecentsManager">
@@ -158,7 +156,7 @@
       <workItem from="1570694265656" duration="16176000" />
       <workItem from="1571385820870" duration="22838000" />
       <workItem from="1572258748476" duration="5163000" />
-      <workItem from="1572433860152" duration="747000" />
+      <workItem from="1572433860152" duration="1332000" />
     </task>
     <task id="LOCAL-00001" summary="Added gitignore file for *.zip">
       <created>1569610575263</created>
@@ -384,7 +382,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571412447952</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Started assignment 8, done with part 1">
+      <created>1572434762630</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1572434762630</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Started assignment 8, done with part 1">
+      <created>1572434804079</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1572434804079</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,7 +414,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished part 2" />
     <MESSAGE value="Finished part 3" />
     <MESSAGE value="Finished part 4" />
     <MESSAGE value="Reformat" />
@@ -427,6 +438,7 @@
     <MESSAGE value="Created the taxes.xml document. Pretty easy..." />
     <MESSAGE value="Fixed the inspection, can now use &quot;redundant&quot; local variable" />
     <MESSAGE value="Added an extra text to the file for inconsistencies in taxes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added an extra text to the file for inconsistencies in taxes." />
+    <MESSAGE value="Started assignment 8, done with part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started assignment 8, done with part 1" />
   </component>
 </project>

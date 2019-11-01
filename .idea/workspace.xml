@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad4e7b45-c776-4fe9-93dc-c6d41e15390a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 8/attachments(8)/attachments/barchart.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 8/attachments(8)/attachments/barchart.js" afterDir="false" />
-    </list>
+    <list default="true" id="ad4e7b45-c776-4fe9-93dc-c6d41e15390a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +147,7 @@
       <workItem from="1571385820870" duration="22838000" />
       <workItem from="1572258748476" duration="5163000" />
       <workItem from="1572433860152" duration="7149000" />
-      <workItem from="1572444067139" duration="867000" />
+      <workItem from="1572444067139" duration="928000" />
     </task>
     <task id="LOCAL-00001" summary="Added gitignore file for *.zip">
       <created>1569610575263</created>
@@ -404,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572443995929</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Made some more progress, giving up for now, committing&#10;&#10;I can commit in the middle of stuff since it's only my own stuff!">
+      <created>1572444989224</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1572444989224</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
